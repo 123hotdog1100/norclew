@@ -1,0 +1,1 @@
+This is a custom mod for CK3 based on a world built by some people working on this mod with me
