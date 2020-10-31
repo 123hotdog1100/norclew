@@ -1,0 +1,30 @@
+norclew_major_decision = { #by Linnéa Thimrén
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	desc = convert_to_feudalism_liege_converted_decision_desc
+
+	ai_check_interval = 0
+
+	is_shown = {
+		has_government = tribal_government
+		}
+	}
+
+	is_valid = {
+	}
+
+	cost = {
+		prestige = 150
+	}
+
+	effect = {
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
