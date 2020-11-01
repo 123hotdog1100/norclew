@@ -1,4 +1,4 @@
 ﻿l_english:
  start_norclew_minor_decision.0001.t:0 "Backstory of Norclew"
  start_norclew_minor_decision.0001.desc:0 "This decision will trigger an event to give a little bit of backstory"
-start_norclew_minor_decision.0001.desc.confirm: "Yes i need to know!"
+start_norclew_minor_decision.0001_confirm: "Yes i need to know!"
