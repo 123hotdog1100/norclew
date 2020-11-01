@@ -6,8 +6,8 @@ norclew_major_decision = {
 	ai_check_interval = 0
 
 	is_shown = {
+		is_ai = yes
 		}
-	}
 
 	is_valid = {
 	}
@@ -16,6 +16,7 @@ norclew_major_decision = {
 	}
 
 	effect = {
+
 	}
 
 	ai_potential = {
