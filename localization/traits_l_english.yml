@@ -1,3 +1,5 @@
 ﻿l_english:
  trait_darkness:0 "Darkness"
- trait_darkness_desc:0 "The darkness envelops this character"
+ trait_darkness_character_desc:0 "The darkness envelops this character"
+ trait_light:0 "Lightness"
+ trait_light_character_desc:0 "The light surrounds this character in everything they do"

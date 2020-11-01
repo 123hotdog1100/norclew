@@ -8,11 +8,11 @@ darkness = {
 	prowess = 2
 	intrigue = 3
 	
+	flag = lower_chance_of_dying_in_combat
+
 	vassal_opinion = -5
 	opposite_opinion = -10
 	same_opinion = 25
-	
-	flag = higher_chance_of_dying_in_battle
 	
 	desc = {
 		first_valid = {
@@ -23,6 +23,58 @@ darkness = {
 				desc = trait_darkness_desc
 			}
 			desc = trait_darkness_character_desc
+		}
+	}
+
+	ai_energy = low_positive_ai_value
+	ai_boldness = dominant_positive_ai_value
+	ai_rationality = low_negative_ai_value
+	ai_sociability = low_positive_ai_value
+	
+	#portrait_pose = {
+	#	name = "test_pose_brave"
+	#	score = 10
+	#}
+	compatibility = {
+		brave = @pos_compat_high
+		ambitious = @pos_compat_medium
+		rowdy = @pos_compat_medium
+		gallant = @pos_compat_low
+		blademaster_1 = @pos_compat_low
+		blademaster_2 = @pos_compat_low
+		blademaster_3 = @pos_compat_low
+		strategist = @pos_compat_low
+		overseer = @pos_compat_low
+		gallant = @pos_compat_low
+		craven = @neg_compat_high
+		lazy = @neg_compat_medium
+		calm = @neg_compat_low
+		content = @neg_compat_low
+	}
+}
+light = {
+	index = 2501
+	personality = yes
+	good = yes
+	opposites = {
+		darkness
+	}
+	diplomacy = 1
+	learning = 3
+	
+	vassal_opinion = 10
+	opposite_opinion = -50
+	same_opinion = 25
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_light_desc
+			}
+			desc = trait_light_character_desc
 		}
 	}
 
