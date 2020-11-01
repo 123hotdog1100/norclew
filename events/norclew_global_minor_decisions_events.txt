@@ -1,5 +1,5 @@
 ﻿
-start_norclew_minor_decision_event.0001 = { #by Mathilda Bjarnehed
+start_norclew_minor_decision_event.0001 = { 
 	type = character_event
 	title = start_norclew_minor_decision_event.0001.t
 	desc = start_norclew_minor_decision_event.0001.desc
