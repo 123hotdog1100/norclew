@@ -1,0 +1,30 @@
+start_norclew_minor_decision.0001 = { 
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	title = start_norclew_minor_decision.0001.t
+	desc = start_norclew_minor_decision.0001.desc
+
+	ai_check_interval = 0
+
+	is_shown = {
+		always
+		}
+	}
+
+	is_valid = {
+	}
+
+	cost = {
+	}
+
+	effect = {
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
