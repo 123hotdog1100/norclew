@@ -1,0 +1,29 @@
+norclew_major_decision = { 
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = yes
+	desc = convert_to_feudalism_liege_converted_decision_desc
+
+	ai_check_interval = 0
+
+	is_shown = {
+		is_ai = yes
+		}
+
+	is_valid = {
+	}
+
+	cost = {
+	}
+
+	effect = {
+
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

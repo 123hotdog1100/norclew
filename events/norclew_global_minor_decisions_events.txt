@@ -1,0 +1,17 @@
+﻿start_norclew_minor_decision_event.0001 = { 
+	type = character_event
+	title = start_norclew_minor_decision_event.0001.t
+	desc = start_norclew_minor_decision_event.0001.desc
+	theme = stewardship
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+
+	option = {
+		name = start_norclew_minor_decision_event.0001.a
+	}
+	option = {
+		name = start_norclew_minor_decision_event.0001.b
+	}
+}

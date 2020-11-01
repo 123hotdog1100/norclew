@@ -1,0 +1,27 @@
+start_norclew_minor_decision.0001 = { 
+	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	major = no
+	title = start_norclew_minor_decision.0001.t
+	desc = start_norclew_minor_decision.0001.desc
+
+	ai_check_interval = 0
+
+	is_shown = {
+		is_ai = no
+		NOT = {exists = var:norclew_start_var}
+	}
+
+	is_valid = {
+	}
+
+	cost = {
+	}
+
+	effect = {
+		set_variable = {
+			name = norclew_start_var
+			value = 1
+		}
+		trigger_event = start_norclew_minor_decision_event.0001
+	}
+}
