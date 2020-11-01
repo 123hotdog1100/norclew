@@ -1,4 +1,4 @@
-norclew_major_decision = { #by Linnéa Thimrén
+norclew_major_decision = { 
 	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
 	major = yes
 	desc = convert_to_feudalism_liege_converted_decision_desc
@@ -6,7 +6,6 @@ norclew_major_decision = { #by Linnéa Thimrén
 	ai_check_interval = 0
 
 	is_shown = {
-		has_government = tribal_government
 		}
 	}
 
@@ -14,7 +13,6 @@ norclew_major_decision = { #by Linnéa Thimrén
 	}
 
 	cost = {
-		prestige = 150
 	}
 
 	effect = {
