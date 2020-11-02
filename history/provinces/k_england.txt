@@ -2,7 +2,7 @@
 ##d_bedford ###################################
 ###c_middlesex
 1527 = {	#Edmonton / London
-	culture = anglo_saxon
+	culture = dark_elf
 	religion = elvenism_pagan
 	holding = castle_holding
 	769.1.1 = {
