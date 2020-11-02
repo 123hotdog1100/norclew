@@ -1,6 +1,8 @@
 ﻿l_english:
+norclew_rf_elven:0 "Elven"
  norclew_elvenism:0 "Elvenism"
- norclue_elvenism_adj:0 "Elven"
- elvenism_pagan_adj:0 "Dark Elvenism"
+ norclew_elvenism_adj:0 "Elven"
  elvenism_pagan:0 "Dark Elvenism"
  norclew_elvenism_desc:0 "The faith of the elvens"
+ elvenism_pagan_adj:0 "Dark elven"
+ elvenism_pagan_adherent_plural:0 "Dark Elf"
